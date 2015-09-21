@@ -104,7 +104,7 @@ class Scraper(object):
                 yield index
             
         def houses():
-            for house in range(4, 501):
+            for house in range(1, 501):
                 yield format(house, '03d')
 
         # --------------------------------------------------
